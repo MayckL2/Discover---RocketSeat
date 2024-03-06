@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 
 import { styled } from '@mui/material/styles';
@@ -57,7 +57,6 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 function App() {
-  const [count, setCount] = useState(0)
 
   useEffect(() => {
    
