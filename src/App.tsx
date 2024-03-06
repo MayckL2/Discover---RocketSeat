@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 import { styled } from '@mui/material/styles';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import Switch, { SwitchProps } from '@mui/material/Switch';
+import Switch from '@mui/material/Switch';
 import Button from './components/button';
 import { FaGithub, FaHeart, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import Avatar from './assets/avatar.jpg'
